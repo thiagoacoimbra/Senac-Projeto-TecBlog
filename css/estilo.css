@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+li {
+    list-style: none;
+}
+
+
+/*
+*** Layout ***
+*/
+
+#area-cabecalho {
+    background-color: #FF8C00;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo,
+#area-menu {
+    padding: 10px;
+    width: 100%;
+}
+
+#area-menu ul {
+    display: inline-flex;
+}
+
+#area-pricipal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-postagens {
+    width: 660px;
+    float: left;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: whitesmoke;
+}
+
+.postagem img {
+    width: 100%;
+}
+
+.conteudo-lateral {
+    background: whitesmoke;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral {
+    font-size: .8em;
+    padding: 5px;
+    border-bottom: 1px dotted lightgray;
+}
+
+.postagem-lateral:last-child {
+    border-bottom: none;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    background: lightgray;
+    padding: 15px;
+}
+
+
+/*
+*** Formatações do menu ***
+*/
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: #FF8C00;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#area-cabecalho a:link,
+#area-cabecalho a:visited {
+    color: whitesmoke;
+    padding: 8px 12px;
+}
+
+#area-cabecalho a:hover {
+    color: #FF8C00;
+    background: whitesmoke;
+    text-decoration: none;
+}
+
+
+/*
+*** Formatações em geral ***
+*/
+
+h1 {
+    color: #363636;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #FF8C00;
+}
+
+h3 {
+    background: lightgray;
+    color: #363636;
+    padding: 5px;
+}
+
+.branco {
+    color: whitesmoke;
+}
+
+.data-postagem {
+    font-size: .8em;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+    /*display block muito importante aqui*/
+}
+
+.social-icons {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.social-icons a {
+    transition: text-shadow 1s;
+    padding: 5px;
+}
+
+.social-icons a:hover {
+    text-decoration: none;
+    text-shadow: 0 0 10px #FF8C00;
+}
